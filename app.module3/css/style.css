@@ -1,0 +1,25 @@
+body {
+    background-color: oldlace;
+}
+
+h2 {
+    text-align: center;
+    color:red;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 100;
+}
