@@ -1,0 +1,48 @@
+/*селектор {
+    свойство: значение;
+} */
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5%;
+    background-color: #faebd0;
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    color: rgba(0,0,0,1);
+    text-align: center;
+   /* font-weight: 900;/* Жирный текст */
+   /*  font-style: italic;наклон текста */
+   /* text-decoration: underline; *//*наклон подчеркнутый */
+   /* text-decoration: line-through; наклон зачеркнутый */ 
+   font-size: 30px; 
+   line-height: 2;  
+}
+
+hr {
+    width: 50%;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+   /* static, relative, absolute, fixed, inherit*/
+    position:inherit;
+    left: 0;
+    top: 50px;
+    /* bottom, top, left, right */
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-transform: uppercase;
+}
