@@ -1,0 +1,170 @@
+*{
+    font-family: "Museo Sans Cyrl", sans-serif;/*изменение шрифта*/
+}
+body{
+    color: #fff;
+}
+
+
+.container{
+   width:100%;
+}
+.D{
+    text-align: center;
+}
+.D:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #52f1f6; /* Цвет линии */
+    width: 550px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.D:hover:after {
+    width: 850px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    background: #da65f1;
+}
+
+.text{
+    display:flex;
+    font-size: 30px;
+    color: #000;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -200px;   
+     
+}
+
+button{
+    align-items: center;
+    color: #fff;
+    border: none;
+    margin-left: -120px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.21);
+    width: 131px;
+    height: 48px;
+    border-radius: 7px;
+    background-image: linear-gradient(to top, #1eacc7 100%, #1eacc7 100%);
+    
+}
+
+button:hover{
+    transition: 1s;
+    background-image: linear-gradient(to top, #b921e7 50%, #1eacc7 100%);
+}
+.c11{
+    color: #000;
+    font-size: 20px;
+    margin-left: -140px;
+    margin-top: -40px;
+}
+.c22{
+    color:#1eacc7;
+    font-size: 15px;
+    margin-left: -220px;
+    margin-top: -10px;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.r{
+    color: #000;
+    font-size: 20px;
+    margin-left: -170px;
+    margin-top: -40px;
+}
+
+.c2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+}
+
+.i{
+    color: #000;
+    font-size: 20px;
+    margin-left: -110px;
+    margin-top: -40px;
+}
+
+.ca{
+    color: #000;
+    font-size: 20px;
+    margin-left: -180px;
+    margin-top: -40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.dug {
+    color: #000;
+    font-size: 15px;
+}
+.sub{
+    color: #000;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+a.gmail{
+    text-decoration: none;
+    color: #1eacc7;
+}
+
+a.gmail:hover{
+    color: #f157f7;
+    transition: 1s;
+}
+
+.footer:before {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #52f1f6; /* Цвет линии */
+    width: 550px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+.footer:hover:before {
+    width: 850px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+    background: #e861fa;
+}
+
+.contacts{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row ;
+}
+
+.con{
+    margin-left: 10px;
+}
+
+a.stick{
+    text-decoration: none;
+}
+
+
